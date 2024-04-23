@@ -21,11 +21,11 @@ return actDays;
  }
 
 public double averageSteps(){
-if(totalDays==0.0){
-return 0.0;}
- else{
+if(totalDays==0.0)
+return 0.0;
+ else
 return (double) totalStpes/totalDays;
- }
+ 
 
 }
 } 
